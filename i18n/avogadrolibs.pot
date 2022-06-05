@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Avogadro 1.95.1\n"
+"Project-Id-Version: Avogadro 1.96.0\n"
 "Report-Msgid-Bugs-To: avogadro-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2022-05-29 03:13+0000\n"
+"POT-Creation-Date: 2022-06-05 02:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1213,7 +1213,7 @@ msgstr ""
 #. i18n: file: qtplugins/selectiontool/selectiontoolwidget.ui:39
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: qtgui/rwlayermanager.cpp:223 qtgui/rwlayermanager.cpp:226
-#: qtplugins/select/select.cpp:268
+#: qtplugins/select/select.cpp:277
 #: qtplugins/selectiontool/selectiontool.cpp:254 :1549
 msgid "Change Layer"
 msgstr ""
@@ -1781,11 +1781,13 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, spin_wavelength)
 #. i18n: file: qtplugins/surfaces/surfacedialog.ui:196
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, resolutionDoubleSpinBox)
-#: qtplugins/closecontacts/closecontacts.cpp:112 :165 rc.cpp:168
+#: qtplugins/closecontacts/closecontacts.cpp:118
+#: qtplugins/noncovalent/noncovalent.cpp:163 :165 rc.cpp:168 rc.cpp:384
 msgid " Å"
 msgstr ""
 
-#: qtplugins/closecontacts/closecontacts.cpp:117
+#: qtplugins/closecontacts/closecontacts.cpp:123
+#: qtplugins/noncovalent/noncovalent.cpp:169
 msgid "Maximum distance:"
 msgstr ""
 
@@ -2943,6 +2945,22 @@ msgstr ""
 msgid "Interact with online databases, query structures etc."
 msgstr ""
 
+#: qtplugins/noncovalent/noncovalent.cpp:154
+msgid " °"
+msgstr ""
+
+#: qtplugins/noncovalent/noncovalent.cpp:168
+msgid "Angle tolerance:"
+msgstr ""
+
+#: qtplugins/noncovalent/noncovalent.h:30
+msgid "Non-Covalent"
+msgstr ""
+
+#: qtplugins/noncovalent/noncovalent.h:34
+msgid "Render a few non-covalent interactions."
+msgstr ""
+
 #: qtplugins/openbabel/obforcefielddialog.cpp:331
 #, qt-format
 msgid "Autodetect (%1)"
@@ -3733,51 +3751,51 @@ msgstr ""
 msgid "Select All"
 msgstr ""
 
-#: qtplugins/select/select.cpp:36
+#: qtplugins/select/select.cpp:37
 msgid "Select None"
 msgstr ""
 
-#: qtplugins/select/select.cpp:45
+#: qtplugins/select/select.cpp:48
 msgid "Invert Selection"
 msgstr ""
 
-#: qtplugins/select/select.cpp:49
+#: qtplugins/select/select.cpp:53
 msgid "Select by Element…"
 msgstr ""
 
-#: qtplugins/select/select.cpp:53
+#: qtplugins/select/select.cpp:58
 msgid "Select by Atom Index…"
 msgstr ""
 
-#: qtplugins/select/select.cpp:57
+#: qtplugins/select/select.cpp:63
 msgid "Select by Residue…"
 msgstr ""
 
-#: qtplugins/select/select.cpp:65
+#: qtplugins/select/select.cpp:73
 msgid "Create New Layer from Selection"
 msgstr ""
 
-#: qtplugins/select/select.cpp:78
+#: qtplugins/select/select.cpp:87
 msgid "Change selections"
 msgstr ""
 
-#: qtplugins/select/select.cpp:88
+#: qtplugins/select/select.cpp:97
 msgid "&Select"
 msgstr ""
 
-#: qtplugins/select/select.cpp:158
+#: qtplugins/select/select.cpp:167
 msgid "Select Atoms by Index"
 msgstr ""
 
-#: qtplugins/select/select.cpp:159
+#: qtplugins/select/select.cpp:168
 msgid "Atoms to Select:"
 msgstr ""
 
-#: qtplugins/select/select.cpp:196
+#: qtplugins/select/select.cpp:205
 msgid "Select Atoms by Residue"
 msgstr ""
 
-#: qtplugins/select/select.cpp:197
+#: qtplugins/select/select.cpp:206
 msgid "Residues to Select:"
 msgstr ""
 
